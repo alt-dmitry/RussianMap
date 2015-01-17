@@ -1,8 +1,3 @@
----
-output:
-  html_document:
-    keep_md: yes
----
 # RussianMap
 ##1. Polygons of russian administrative regions.
 
@@ -12,7 +7,7 @@ Final geojson files are:
 
 - in subdataClean folder. Each file represents one region.
 
-##2. Python script to implify coordinates
+##2. Python script to simplify coordinates
 
 By changing c constant in the SimplifyCoordinates.py you can make a map a lot lighter.
 
